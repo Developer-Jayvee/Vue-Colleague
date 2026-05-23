@@ -1,0 +1,22 @@
+@import 'tailwindcss';
+
+
+input {
+    border:1px solid rgba(128, 128, 128, 0.381);
+    /* width:100%; */
+    padding:10px 10px;
+    outline: none;
+}
+.list-move {
+  transition: transform 0.3s ease;
+}
+.list-enter-active,
+.list-leave-active {
+  transition: all 0.2s ease;
+}
+
+.list-enter-from,
+.list-leave-to {
+  opacity: 0;
+  transform: translateY(10px);
+}
